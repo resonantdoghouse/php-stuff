@@ -1,0 +1,30 @@
+html, body {
+  font-family: "Pirata One", cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pirate-talk-form input,
+.pirate-talk-form textarea
+ {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.pirate-talk-form input[type="submit"]{
+    display: block;
+    padding: 0.5rem;
+    margin: auto;
+    background: #ba782a;
+    color: white;
+    cursor: pointer;
+}
+
+.pirate-talk-output {
+    background: #ffe9ce;
+}
